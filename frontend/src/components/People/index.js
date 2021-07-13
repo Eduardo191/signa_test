@@ -15,13 +15,13 @@ export default function Orders() {
   }
 
   return (
-    <div className="ml-5 mr-5">
-      <h1 className="ml-5 mb-3">Consulta de nome fantasia</h1>
+    <div className="ml-3 mr-5">
+      <h1 className="ml-3 mb-3">Consulta de nome fantasia</h1>
 
-      <Button className="ml-5 mb-2" onClick={() => mountList()} variant="primary">Montar lista</Button>
-      <Button className="ml-2 mb-2" onClick={() => setPeople([])} variant="primary">Limpar</Button>
+      <Button className="ml-3 mb-2" onClick={() => mountList()} variant="primary">Montar lista</Button>
+      <Button className="ml-3 mb-2" onClick={() => setPeople([])} variant="primary">Limpar</Button>
 
-      <Table className="ml-5" striped bordered hover>
+      <Table className="ml-3" striped bordered hover>
         <thead>
           <tr>
             <th>Nome fantasia</th>
